@@ -19,8 +19,6 @@ To begin, we define the initial scope of preservation, giving an overview of the
 
 The OAIS reference model will then be briefly introduced, explaining what are the fundamental components of a digital preservation system and how they are being  implemented.
 
-TODO: Rescope OAIS here
-
 Next, we introduce the CERN Digital Preservation platform, which is designed to orchestrate these components and enable existing information systems to adopt a preservation strategy. We highlight how existing tools and digital preservation solutions, such as Archivematica, are being integrated into this platform.
 
 \end{abstract}
@@ -53,18 +51,32 @@ Below are listed the information systems considered during this initial phase.
 
 The fundamental standard for digital preservation is the OAIS Reference Model\cite{OAIS2002} (ISO 14721). It provides requirements and standards for an archive or repository to provide long-term, preservation of digital information.
 
+A preliminary inspection was conducted on the mentioned repositories, showing that they are lacking the strategies and the capabilities to digitally preserve their assets.
 
+\subsection{CERN SIP Specification}
+First of all, a consistent form to export data from the all the chosen repository was needed: we wrote a simple specification based on the Submission Information Package (SIP) definition from OAIS to define how a record can be exported, in which form its payload must be stored and how should the required and optional metadata be specified.
 
-A preliminary inspection was conducted on the mentioned sources, showing that they are lacking the strategies and the capabilities to digitally preserve their assets (namely, the capacity to prepare Archival Information Packages and disseminate them).
+This specification consists in three parts:
 
+\begin{enumerate}
+    \item A text document, explaining the format and mapping every requirement from the OAIS reference to our implementation.
+    \item The JSON Schema definition of a metadata file carrying some additional information about the SIP and content metadata.
+    \item A library in Python, able to validate any folder as a SIP file and expose errors, if any.
+\end{enumerate}
 
+\subsection{BagIt Create}
 
+BagIt Create is a library and a command line tool to create export packages from the IRs, complying with the CERN SIP specification. It does so by harvesting data from the upstream sources and making use of the official exposed APIs (if any).
 
+Each source is supported by writing a pipeline making use of specific APIs. The tool is very modular and additional pipelines can be easily created to support new repositories or extend existing ones.
+
+BagIt Create also supports local files and folders, allowing users to create SIP packages in a quick way even for data simply lying on disk.
+
+With a solid tool able to create SIP packages, we proceeded to design a platform able to process those SIP into Archival Information Packages.
 
 \subsection{Environment}
 
-No enforced policy. 3 options proposed. \cite{strategy}
-
+Three options were proposed to implement a digital preservation strategy\cite{strategy} :
 
 \subsubsection{Preservation is performed by the IR} the Information Repository (IR) must follow the OAIS model to preserve its content and perform preservation actions for data types within its preservation scope. The IR does not require a dedicated central service as it handles preservation actions and registry internally. A central entity will verify that CERN policy is implemented within the IR and may harvest the IR's preservation registry to feed into a central registry.
 
@@ -105,27 +117,57 @@ CERN SIP \cite{CERNDigitalMemorySIPSpecGitLab-2021-09-15}, BagIt Create \cite{CE
 
 \subsection{ILCDoc}
 
-\subsection{old dh head}
+ILCDoc was a document repository based on a old version of Invenio, hosting resources related to the International Linear Collider, a proposed linear particle accelerator. It also had a related Indico instance for events and conferences, called ILC Agenda.
+Both were decommissioned in 2022 and the machines running them were put offline.
 
-\subsection{easy deployment with Kubernetes/Helm charts}
+Before so, we run an archival operation creating packages for every document in ILCDoc and every event they referenced in the Agenda.
 
-\subsection{people retiring}
+Later on, a "deposit" feature was implemented on the Digital Memory platform, allowing archivists to deposit an existing package to the platform and trigger the preservation pipeline.
 
+\subsection{Department Head finishing their mandate}
+
+When the old CERN IT Department Head finished his mandate, BagIt Create and the platform were used to create SIPs from data that was never published in canonical repositories (e.g. local files, notes, etc).
+
+\subsection{Deployment}
+
+Every component of the Digital Memory platform is released as Open Source software and it's designed to be highly re-usable and adaptable to non-CERN infrastructures.
+
+Thanks to Helm Charts, deploying the entire stack of the platform and setting up another instance is only a matter of configuring some options.
+
+Integration and deployments pipelines were developed and hooked to the git repositories, so test instances can easily follow code changes.
+
+A detailed documentation guides the operator through the deployment process and the configuration of all the connected compoments (e.g. CTA, CERN SSO, Sentry diagnostics, ..)
+
+
+\subsection{Retiring Staff members}
+
+Some staff members in IT close to retirement are using the Digital Memory platform to retrieve documents and assets produced during their entire career at CERN. Those packages can be downloaded by the authors to retain access after their accounts will be deactivated.
 
 
 \section{Conclusion}
 
 cta/how much/when/decisions
 
-moving api surface
+\subsection{Moving API surfaces}
+The current approach of delegating to BagIt create the export functionality is tied to the stability of the various API surfaces it consumes. Even if it currently works, it would be irrealistic to have a central piece of software that has to maintain compatibility with a number of different ever-changing IR software and the API they expose. A better solution may be delegating the responsibilty of maintining these "connectors" to the maintainers of the IR or directly move these implementations on the codebase of the IR, so they can properly export complying SIPs.
 
-selecting content?
+\subsection{Content selection}
 
-policies at the level of the source information systems
+IRs and organisation level policies should be adopted to define which kind of content should receive which kind of preservation treatment.
 
-archivematica, support for office documents
+E.g. a specific category of istitutional events may require multiple copies on tape and be disseminated publicy from the the registry, while personal documents of ex-employees may not require preservation version but be available to the teams currently working on those projects.
 
-access to archives
+
+\subsection{Archivematica and the support for Office documents}
+Archivematica does not support Microsoft Office documents at the moment and preservation versions of those type of files are not prepared during the AIP creation process.
+The team is currently surveying which tools should be officially adopted to carry on this task, but for the time being an alternative should be found, Office documents make up for a considerable amount.
+
+\subsection{}
+At the moment, the Digital Memory registry is accessible only to administators.
+
+Policies governing how the access to the registry may should be given must be agreed upon and adopted by the IRs.
+
+An initial proposal may be following the process of the paper archives: [TODO].
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
