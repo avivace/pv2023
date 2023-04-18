@@ -1,0 +1,101 @@
+<mxfile host="Electron" modified="2023-04-17T16:09:01.335Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="BJMe_zhPAZB4exP2GFd6" version="21.1.2" type="device">
+  <diagram name="Page-1" id="hx4boAD_HQxNu4f-XxpX">
+    <mxGraphModel dx="1838" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-1" value="" style="shape=card;whiteSpace=wrap;html=1;size=20;" parent="1" vertex="1">
+          <mxGeometry x="230" y="290" width="150" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vKuZh1CZTpmhd4lYeuSt-2" target="vKuZh1CZTpmhd4lYeuSt-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="335" />
+              <mxPoint x="230" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;BagIt File Packaging Format 0.97&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;size=20;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="255" y="305" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-4" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;Additional definitions&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="290" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="370" width="350" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="400" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="540" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot; color=&quot;#6c8ebf&quot;&gt;&lt;b&gt;Meta&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-126" y="403" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-11" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot; color=&quot;#82b366&quot;&gt;&lt;b&gt;Content&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="-128" y="542" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-12" value="&lt;b&gt;CERN SIP Specifcation&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Inter;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="227.5" y="260" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-13" value="&lt;b&gt;Example SIP&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Inter;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="260" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;&lt;b&gt;BagIt Related files&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-3" value="&lt;font face=&quot;Roboto Mono&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot;&gt;CERN-THESIS-2020-400.pdf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="570" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-4" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot; face=&quot;Roboto Mono&quot;&gt;metadata-cds-2798105.xml&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="620" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-5" value="Original File" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" vertex="1" parent="1">
+          <mxGeometry x="78" y="580" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-6" value="Upstream metadata" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" vertex="1" parent="1">
+          <mxGeometry x="78" y="630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0haPZ1ED--9v7tSMuTFx-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot; face=&quot;Roboto Mono&quot;&gt;sip.json&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="480" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-12" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot; face=&quot;Roboto Mono&quot;&gt;bagitcreate.log&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="430" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-13" value="SIP creation log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" vertex="1" parent="1">
+          <mxGeometry x="78" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-14" value="SIP metadata" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Inter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DInter;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-16" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot; face=&quot;Roboto Mono&quot;&gt;bag-info.txt&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-134" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-17" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot; face=&quot;Roboto Mono&quot;&gt;manifest-md5.txt&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-17" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-18" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto+Mono&quot; face=&quot;Roboto Mono&quot;&gt;bagit.txt&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0haPZ1ED--9v7tSMuTFx-19" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;&lt;b&gt;Payload&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vKuZh1CZTpmhd4lYeuSt-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot; face=&quot;Inter&quot;&gt;SIP manifest JSON Schema&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="255" y="400" width="100" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

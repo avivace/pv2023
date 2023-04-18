@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2023-04-17T17:23:47.369Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="NNlvLsDPLMIaurfxBruC" version="21.1.2" type="device">
+  <diagram name="Page-1" id="dUzHwGuB7thh1k0tjYUQ">
+    <mxGraphModel dx="1185" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="173.00000000000003" y="640" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DLLQzCTZkC8ro0lvaizg-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="460" />
+              <mxPoint x="310" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-1" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Harvest from repository&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DLLQzCTZkC8ro0lvaizg-2" target="DLLQzCTZkC8ro0lvaizg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-2" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Upload plain folder&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DLLQzCTZkC8ro0lvaizg-3" target="DLLQzCTZkC8ro0lvaizg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-3" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;SIP Creation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DLLQzCTZkC8ro0lvaizg-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-5" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Validation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-14" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Publish to the Registry or update existing entry&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="318" y="710" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-16" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Edit manifest&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="710" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-17" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Create AIP with Archivematica&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="650" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DLLQzCTZkC8ro0lvaizg-21" target="DLLQzCTZkC8ro0lvaizg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="460" />
+              <mxPoint x="310" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-21" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Deposit SIP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DLLQzCTZkC8ro0lvaizg-23" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Push to Tape&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="318" y="650" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aQx1wTdhtXLaUeKPMNZd-5" target="DLLQzCTZkC8ro0lvaizg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-5" value="&lt;font face=&quot;Inter&quot; style=&quot;font-size: 12px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Inter&quot;&gt;Checksum&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aQx1wTdhtXLaUeKPMNZd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;exitX=0.891;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DLLQzCTZkC8ro0lvaizg-18" target="DLLQzCTZkC8ro0lvaizg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
