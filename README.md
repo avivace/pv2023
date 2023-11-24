@@ -1,8 +1,8 @@
-# pv2023
+# The Challenge of Digital Preservation at CERN
 
-Paper submission for the [PV2023](https://indico.cern.ch/event/1188041/) conference - "The Challenge of Digital Preservation at CERN"
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10203445.svg)](https://doi.org/10.5281/zenodo.10203445)
 
-[Final PDF can be found here](https://cds.cern.ch/record/2857550).
+Paper submission for the [PV2023](https://indico.cern.ch/event/1188041/) conference. [Final PDF can be found here](https://zenodo.org/records/10203445).
 
 There was also a talk presenting this work at the conference. A recording can be found [here](https://cds.cern.ch/record/2858704). [Slides](https://indico.cern.ch/event/1188041/contributions/5308305/attachments/2639577/4568146/23_Vivace_TheChallengeOfDigitalPreservatoinCERN_2_hmymq.pdf) are also available.
 
